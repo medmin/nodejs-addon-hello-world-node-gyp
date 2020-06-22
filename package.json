@@ -1,0 +1,24 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "a hello world example of Nodejs C++ addon using N-API",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "node-gyp": "node-gyp",
+    "install": "node-gyp rebuild",
+    "test": "node test/hello.js"
+  },
+  "keywords": [
+    "C++",
+    "N-API"
+  ],
+  "author": "Yumin <yumindev@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "node-addon-api": "^3.0.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^7.0.0"
+  }
+}
